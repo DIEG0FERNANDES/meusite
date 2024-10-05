@@ -108,7 +108,7 @@ Error generating stack: `+o.message+`
     background-color: #8c7a88;
     color: #ffffff;
   }
-`,xo=()=>O.jsxs(X0,{children:[O.jsx(J0,{href:"/meusite/",children:"MEU PORTIFOLIO"}),O.jsxs(Z0,{children:[O.jsx(ni,{href:"/meusite/",children:"Inicio"}),O.jsx(ni,{href:"/meusite/sobre",children:"Sobre"}),O.jsx(ni,{href:"/meusite/blog",children:"Blog"})]})]}),q0=Ot.div`
+`,xo=()=>O.jsxs(X0,{children:[O.jsx(J0,{href:"/meusite/",children:"MEU PORTIFOLIO"}),O.jsxs(Z0,{children:[O.jsx(ni,{href:"/meusite/",children:"Inicio"}),O.jsx(ni,{href:"/meusite/sobre/",children:"Sobre"}),O.jsx(ni,{href:"/meusite/blog/",children:"Blog"})]})]}),q0=Ot.div`
   flex: 1;
   width: 100%;
   display: flex;
