@@ -108,11 +108,11 @@ Error generating stack: `+o.message+`
     background-color: #8c7a88;
     color: #ffffff;
   }
-`,xo=()=>O.jsxs(X0,{children:[O.jsx(J0,{href:"/meusite/",children:"MEU PORTIFOLIO"}),O.jsxs(Z0,{children:[O.jsx(ni,{href:"/meusite/",children:"Inicio"}),O.jsx(ni,{href:"/meusite/sobre/",children:"Sobre"}),O.jsx(ni,{href:"/meusite/blog/",children:"Blog"})]})]}),q0=Ot.div`
+`,xo=()=>O.jsxs(X0,{children:[O.jsx(J0,{href:"/",children:"MEU PORTIFOLIO"}),O.jsxs(Z0,{children:[O.jsx(ni,{href:"/",children:"Inicio"}),O.jsx(ni,{href:"/sobre",children:"Sobre"}),O.jsx(ni,{href:"/blog",children:"Blog"})]})]}),q0=Ot.div`
   flex: 1;
   width: 100%;
   display: flex;
   flex-direction: column;
 `,b0=Ot.div`
   flex: 1;
-`,ev=()=>O.jsxs(q0,{children:[O.jsx(xo,{}),O.jsx(b0,{children:O.jsx("p",{children:"Olá,Seja Bem Vindo ao Meu Portifólio Eu Sou Diego dos Santos Fernandes"})}),O.jsx(us,{})]}),tv=()=>O.jsxs("div",{children:[O.jsx("h1",{children:"404 - Not Found"}),O.jsx("p",{children:"The page you are looking for does not exist."}),O.jsx(xo,{})]}),nv=()=>O.jsxs(O.Fragment,{children:[O.jsx(xo,{}),O.jsx("div",{children:O.jsx("h1",{children:"About"})}),O.jsx(us,{})]}),rv=()=>O.jsxs(O.Fragment,{children:[O.jsx(xo,{}),O.jsx("div",{children:O.jsx("h1",{children:"Blog"})}),O.jsx(us,{})]}),lv=[{path:"/meusite/",element:O.jsx(ev,{})},{path:"/meusite/sobre",element:O.jsx(nv,{})},{path:"/meusite/blog",element:O.jsx(rv,{})},{path:"*",element:O.jsx(tv,{})}],ov=()=>{const e=Tm(lv);return O.jsx(O.Fragment,{children:e})};ed(document.getElementById("root")).render(O.jsx(Qm,{children:O.jsx(ov,{})}));
+`,ev=()=>O.jsxs(q0,{children:[O.jsx(xo,{}),O.jsx(b0,{children:O.jsx("p",{children:"Olá,Seja Bem Vindo ao Meu Portifólio Eu Sou Diego dos Santos Fernandes"})}),O.jsx(us,{})]}),tv=()=>O.jsxs("div",{children:[O.jsx("h1",{children:"404 - Not Found"}),O.jsx("p",{children:"The page you are looking for does not exist."}),O.jsx(xo,{})]}),nv=()=>O.jsxs(O.Fragment,{children:[O.jsx(xo,{}),O.jsx("div",{children:O.jsx("h1",{children:"About"})}),O.jsx(us,{})]}),rv=()=>O.jsxs(O.Fragment,{children:[O.jsx(xo,{}),O.jsx("div",{children:O.jsx("h1",{children:"Blog"})}),O.jsx(us,{})]}),lv=[{path:"/",element:O.jsx(ev,{})},{path:"/sobre",element:O.jsx(nv,{})},{path:"/blog",element:O.jsx(rv,{})},{path:"*",element:O.jsx(tv,{})}],ov=()=>{const e=Tm(lv);return O.jsx(O.Fragment,{children:e})};ed(document.getElementById("root")).render(O.jsx(Qm,{children:O.jsx(ov,{})}));
