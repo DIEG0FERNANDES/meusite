@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+html,
+body,
+#root,
+.App {
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
