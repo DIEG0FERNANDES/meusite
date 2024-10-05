@@ -6,19 +6,19 @@ import Blog from "../pages/blog";
 
 export const routes: RouteObject[] = [
   {
-    path: "/meusite/",
+    path: "/",
     element: <Home />,
   },
   {
-    path: "/meusite/sobre",
+    path: "/sobre",
     element: <About />,
   },
   {
-    path: "/meusite/blog",
+    path: "/blog",
     element: <Blog />,
   },
   {
-    path: "/meusite/*",
+    path: "*",
     element: <NotFound />,
   },
 ];
