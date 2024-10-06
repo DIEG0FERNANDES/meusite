@@ -138,7 +138,7 @@ Error generating stack: `+o.message+`
   font-size: 15px;
   font-family: "regular";
   text-align: center;
-`;const iv=()=>$.jsxs(ov,{children:[$.jsx("h1",{children:"404 - Not Found"}),$.jsx("p",{children:"The page you are looking for does not exist."})]}),uv=fe.div`
+`;const iv=()=>$.jsx($.Fragment,{children:$.jsxs(ov,{children:[$.jsx("h1",{children:"404 - Not Found"}),$.jsx("p",{children:"The page you are looking for does not exist."})]})}),uv=fe.div`
   flex: 1;
 `,sv=()=>$.jsxs($.Fragment,{children:[$.jsx(is,{}),$.jsx(uv,{children:$.jsx("h1",{children:"About"})}),$.jsx(os,{})]}),av=fe.div`
   flex: 1;
