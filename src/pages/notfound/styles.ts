@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const ContainerNotfound = styled.div`
   flex: 1;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin: 240px;
 `;
 export const Title = styled.h1`
   font-size: 45px;
