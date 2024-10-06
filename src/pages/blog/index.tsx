@@ -1,13 +1,14 @@
 import Footer from "../../components/Footer";
 import BarNav from "../../components/NavBar";
+import { ContainerBlog } from "./styles";
 
 const Blog = () => {
   return (
     <>
       <BarNav />
-      <div>
+      <ContainerBlog>
         <h1>Blog</h1>
-      </div>
+      </ContainerBlog>
       <Footer />
     </>
   );

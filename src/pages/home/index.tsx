@@ -1,15 +1,19 @@
 import Footer from "../../components/Footer";
 import BarNav from "../../components/NavBar";
-import { Body, Conteudo } from "./styles";
+import { Body, Conteudo, Imagem, Paragrafo, TextoParagrafo } from "./styles";
+
+import Foto from "../../assets/img/minhafoto.jpg";
 
 const Home = () => {
   return (
     <Body>
       <BarNav />
       <Conteudo>
-        <p>
-          Olá,Seja Bem Vindo ao Meu Portifólio Eu Sou Diego dos Santos Fernandes
-        </p>
+        <Imagem src={Foto} alt="Minha Foto" />
+        <Paragrafo>
+          <TextoParagrafo>Olá,Seja Bem Vindo ao Meu Site</TextoParagrafo>
+          <TextoParagrafo>Eu Sou Diego dos Santos Fernandes</TextoParagrafo>
+        </Paragrafo>
       </Conteudo>
       <Footer />
     </Body>

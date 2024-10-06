@@ -5,7 +5,7 @@ import styled from "styled-components";
 // `;
 
 export const Title = styled.footer`
-  font-size: 20px;
+  font-size: 14px;
   font-family: "bold";
   padding: 10px;
   text-align: center;
