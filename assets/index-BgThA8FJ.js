@@ -128,8 +128,8 @@ Error generating stack: `+o.message+`
   font-family: "regular";
 `,rv="/meusite/assets/minhafoto-Fz2-9Uh4.jpg",lv=()=>$.jsxs(b0,{children:[$.jsx(is,{}),$.jsxs(ev,{children:[$.jsx(tv,{src:rv,alt:"Minha Foto"}),$.jsxs(nv,{children:[$.jsx(Ua,{children:"Olá,Seja Bem Vindo ao Meu Site"}),$.jsx(Ua,{children:"Eu Sou Diego dos Santos Fernandes"})]})]}),$.jsx(os,{})]}),ov=fe.div`
   flex: 1;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin: 240px;
 `;fe.h1`
   font-size: 45px;
   font-family: "Bold";
