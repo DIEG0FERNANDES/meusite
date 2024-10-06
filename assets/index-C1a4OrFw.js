@@ -128,13 +128,16 @@ Error generating stack: `+o.message+`
   font-family: "regular";
 `,rv="/meusite/assets/minhafoto-Fz2-9Uh4.jpg",lv=()=>$.jsxs(b0,{children:[$.jsx(is,{}),$.jsxs(ev,{children:[$.jsx(tv,{src:rv,alt:"Minha Foto"}),$.jsxs(nv,{children:[$.jsx(Ua,{children:"Olá,Seja Bem Vindo ao Meu Site"}),$.jsx(Ua,{children:"Eu Sou Diego dos Santos Fernandes"})]})]}),$.jsx(os,{})]}),ov=fe.div`
   flex: 1;
-  display: flex;
+  align-items: center;
+  justify-content: center;
 `;fe.h1`
   font-size: 45px;
   font-family: "Bold";
+  text-align: center;
 `;fe.p`
   font-size: 15px;
   font-family: "regular";
+  text-align: center;
 `;const iv=()=>$.jsxs(ov,{children:[$.jsx("h1",{children:"404 - Not Found"}),$.jsx("p",{children:"The page you are looking for does not exist."})]}),uv=fe.div`
   flex: 1;
 `,sv=()=>$.jsxs($.Fragment,{children:[$.jsx(is,{}),$.jsx(uv,{children:$.jsx("h1",{children:"About"})}),$.jsx(os,{})]}),av=fe.div`
