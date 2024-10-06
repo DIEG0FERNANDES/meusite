@@ -108,7 +108,7 @@ Error generating stack: `+o.message+`
     background-color: #8c7a88;
     color: #ffffff;
   }
-`,is=()=>$.jsxs(Z0,{children:[$.jsx(q0,{href:"/",children:"MEU PORTIFOLIO"}),$.jsxs(J0,{children:[$.jsx(ei,{href:"/",children:"Inicio"}),$.jsx(ei,{href:"/sobre",children:"Sobre"}),$.jsx(ei,{href:"/blog",children:"Blog"})]})]}),b0=fe.div`
+`,is=()=>$.jsxs(Z0,{children:[$.jsx(q0,{href:"/meusite/",children:"MEU PORTIFOLIO"}),$.jsxs(J0,{children:[$.jsx(ei,{href:"/meusite/",children:"Inicio"}),$.jsx(ei,{href:"/meusite/sobre",children:"Sobre"}),$.jsx(ei,{href:"/meusite/blog",children:"Blog"})]})]}),b0=fe.div`
   flex: 1;
   width: 100%;
   display: flex;
@@ -142,4 +142,4 @@ Error generating stack: `+o.message+`
   flex: 1;
 `,sv=()=>$.jsxs($.Fragment,{children:[$.jsx(is,{}),$.jsx(uv,{children:$.jsx("h1",{children:"About"})}),$.jsx(os,{})]}),av=fe.div`
   flex: 1;
-`,cv=()=>$.jsxs($.Fragment,{children:[$.jsx(is,{}),$.jsx(av,{children:$.jsx("h1",{children:"Blog"})}),$.jsx(os,{})]}),fv=[{path:"/",element:$.jsx(lv,{})},{path:"/sobre",element:$.jsx(sv,{})},{path:"/blog",element:$.jsx(cv,{})},{path:"*",element:$.jsx(iv,{})}],dv=()=>{const e=Lm(fv);return $.jsx($.Fragment,{children:e})};ed(document.getElementById("root")).render($.jsx(Km,{children:$.jsx(dv,{})}));
+`,cv=()=>$.jsxs($.Fragment,{children:[$.jsx(is,{}),$.jsx(av,{children:$.jsx("h1",{children:"Blog"})}),$.jsx(os,{})]}),fv=[{path:"/meusite/",element:$.jsx(lv,{})},{path:"/meusite/sobre",element:$.jsx(sv,{})},{path:"/meusite/blog",element:$.jsx(cv,{})},{path:"/meusite/*",element:$.jsx(iv,{})}],dv=()=>{const e=Lm(fv);return $.jsx($.Fragment,{children:e})};ed(document.getElementById("root")).render($.jsx(Km,{children:$.jsx(dv,{})}));
